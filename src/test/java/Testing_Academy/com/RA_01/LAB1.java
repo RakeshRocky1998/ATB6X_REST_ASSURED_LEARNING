@@ -10,5 +10,6 @@ public class LAB1 {
                 .baseUri("https://restful-booker.herokuapp.com")
                 .basePath("/booking")
                 .when().get().then().statusCode(200);
+        System.out.println("byyyyyyyyyy");
     }
 }
